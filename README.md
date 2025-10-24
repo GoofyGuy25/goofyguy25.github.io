@@ -1,2 +1,2 @@
-# Dungeon.github.io
+THE DUNGEON
 unblocked sites hub for me and my friends
