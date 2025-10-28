@@ -3,17 +3,17 @@ body {
 }
 
 h1 {
-  color: brown;
+  color: #8B4107;
   text-align: center;
 }
 
 h4 {
-  color: dark brown;
+  color: #793705;
   text-align: center;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
-  color: light brown;
+  color: #784D2C;
 }
