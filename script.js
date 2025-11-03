@@ -4,7 +4,7 @@ function checkPassword() {
     const errorMessage = document.getElementById("errorMessage");
 
     if (passwordInput === correctPassword) {
-        window.location.href = "main.html"; // Redirect to your main page
+        window.location.href = "billyjeans.html"; // Redirect to your main page
     } else {
         errorMessage.textContent = "Incorrect!";
     }
