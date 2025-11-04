@@ -1,2 +1,3 @@
 THE DUNGEON
 unblocked sites hub for me and my friends
+THIS SITE IS NOT FINISHED, SOME PLACES MAY BE BROKEN/NOT WORKING
