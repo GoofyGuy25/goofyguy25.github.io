@@ -27,22 +27,29 @@ button {
   text-align: center;
 }
 
+/* Common styles for both torches */
 .leftTorch, .rightTorch {
-  position: fixed; /* or absolute, depending on layout */
-  top: 100px; /* adjust this to move them up/down */
+  position: fixed;  /* stays in place while scrolling */
+  top: 100px;       /* adjust vertical position as needed */
+  z-index: 1000;    /* ensures torches appear above most elements */
 }
 
+/* Left-side torch */
 .leftTorch {
-  left: 20px; /* distance from the left edge */
+  left: 20px;       /* distance from left edge */
 }
 
+/* Right-side torch */
 .rightTorch {
-  right: 20px; /* distance from the right edge */
+  right: 20px;      /* distance from right edge */
 }
 
-.leftTorch img, .rightTorch img {
-  width: 100px; /* adjust size as needed */
+/* Torch image styling */
+.leftTorch img,
+.rightTorch img {
+  width: 100px;     /* adjust torch size */
   height: auto;
+  display: block;   /* prevents extra space below image */
 }
 
 ul {
