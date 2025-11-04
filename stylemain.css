@@ -27,12 +27,22 @@ button {
   text-align: center;
 }
 
+}.leftTorch, .rightTorch {
+  position: fixed; /* or absolute, depending on layout */
+  top: 100px; /* adjust this to move them up/down */
+}
+
 .leftTorch {
-  text-align: left;
+  left: 20px; /* distance from the left edge */
 }
 
 .rightTorch {
-  text-align: right;
+  right: 20px; /* distance from the right edge */
+}
+
+.leftTorch img, .rightTorch img {
+  width: 100px; /* adjust size as needed */
+  height: auto;
 }
 
 ul {
