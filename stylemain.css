@@ -23,6 +23,14 @@ h4 {
   text-align: center;
 }
 
+.leftTorch {
+  text-align: left;
+}
+
+.rightTorch {
+  text-align: right;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
