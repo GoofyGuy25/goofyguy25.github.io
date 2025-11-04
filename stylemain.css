@@ -27,7 +27,7 @@ button {
   text-align: center;
 }
 
-}.leftTorch, .rightTorch {
+.leftTorch, .rightTorch {
   position: fixed; /* or absolute, depending on layout */
   top: 100px; /* adjust this to move them up/down */
 }
